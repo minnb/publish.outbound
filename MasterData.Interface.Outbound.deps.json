@@ -11,6 +11,7 @@
           "Dapper": "2.0.35",
           "Dapper.Contrib": "2.0.35",
           "MasterData.Data": "1.0.0",
+          "MasterData.Interface.Inbound": "1.0.0",
           "MasterData.Utilities": "1.0.0"
         },
         "runtime": {
@@ -1441,6 +1442,15 @@
           "MasterData.Data.Entities.dll": {}
         }
       },
+      "MasterData.Interface.Inbound/1.0.0": {
+        "dependencies": {
+          "MasterData.Data": "1.0.0",
+          "MasterData.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "MasterData.Interface.Inbound.dll": {}
+        }
+      },
       "MasterData.Utilities/1.0.0": {
         "dependencies": {
           "SSH.NET": "2016.1.0",
@@ -2360,6 +2370,11 @@
       "sha512": ""
     },
     "MasterData.Data.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MasterData.Interface.Inbound/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
